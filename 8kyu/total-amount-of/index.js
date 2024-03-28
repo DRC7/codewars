@@ -12,6 +12,8 @@
 // if x = y: 1 point (tie)
 // We need to write a function that takes this collection and returns the number of points our team (x) got in the championship by the rules given above.
 
+//My solution 
+
 function points(games) {
     let total = 0
     games.map(games => {
