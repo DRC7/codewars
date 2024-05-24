@@ -2,7 +2,7 @@
 
 // My solution
 function reverseWord(str) {
-    return str.split('').reverse().join('')
+    return str.split(' ').reverse().join(' ')
 }
 
 let string = "the day will become light with Jesus"
